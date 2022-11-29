@@ -1,0 +1,208 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+.navbar {
+    display: flex;
+    /* position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff; */
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    height: 104px;
+}
+.logo h1 a {
+    color: black;
+    font-size: 25px;
+    font-family:serif;
+    cursor: pointer;
+}
+.menu ul {
+    display: flex;
+    gap: 38px;
+}
+.menu ul li a {
+    color: black;
+    font-family: serif;
+    font-size: 20px;
+}
+.menu ul li a:hover {
+    text-decoration: underline;
+    text-decoration-color: orange;   
+}
+.main {
+    display: grid;
+    justify-content: center;
+    padding-top: 140px;
+    background-image: url(https://assets.zyrosite.com/AE053ggD2nfrQXEN/img-mxkJ4pb4rMUe8Nw1.jpg);
+    width: 100%;
+    height: 591px;
+}
+.texts h1 {
+    font-size: 90px;
+    width: 791px;
+    text-align: center;
+    color: white;
+}
+.texts button {
+    background-color: #fff;
+    border-color: #fff;
+    cursor: pointer;
+    margin-left: 326px;
+    margin-top: 20px;
+    color: black;
+    padding: 11px 24px;
+}
+.store-text {
+    display:flex;
+    justify-content: center;
+    padding-top: 140px;
+}
+.store-text h1 {
+    font-size: 41px;
+    width: 1222px;
+    text-align: center;
+    color: black;
+}
+.store-texts button {
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+    opacity: 1.6;
+    transition: 0.3s;
+    padding: 11px 37px;
+    margin-top: 41px;
+    margin-left: 538px;
+}
+.store-texts button:hover {
+    background-color: #423E40;
+    color: #fff;
+}
+.store-cards {
+    padding-left: 248px;
+    padding-top: 139px;
+}
+.cards {
+    display: flex;
+    gap: 20px;
+}
+.cards img {
+    width: 500px;
+    height: 500px;
+}
+.text {
+    display: flex;
+    gap: 364px;
+    padding-top: 30px;
+    padding-left: 155px;
+    font-size: 11px;
+}
+.button{
+    display: flex;
+    padding-left: 190px;
+    gap: 427px;
+    padding-top: 20px;
+}
+.button button {
+    background-color: black;
+    color: #fff;
+    opacity: 1.6;
+    transition: 0.3s;
+    padding: 8px 25px;
+    cursor: pointer;
+}
+.button button:hover {
+    background-color: #423E40;
+    color: #fff;
+}
+.touch {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: #FCE2ED;
+}
+.text-button {
+    padding-top: 100px;
+    height: 335px;
+}
+.text-button h1 {
+    width: 985px;
+    font-size: 37px;
+    text-align: center;
+}
+.text-button button {
+    background-color: black;
+    color: #fff;
+    opacity: 1.6;
+    transition: 0.3s;
+    margin-top: 25px;
+    margin-left: 430px;
+    padding: 12px 23px;
+    cursor: pointer;
+}
+.text-button button:hover {
+    background-color: #423E40;
+    color: #fff;
+}
+.footer {
+    display: flex;
+    padding-left: 195px;
+    padding-right: 20px;
+    height: 400px;
+    padding-top: 75px;
+    gap: 240px;
+}
+.media h1 {
+    width: 283px;
+    font-size: 27px;
+    text-align: start;
+}
+.socials {
+    display: flex;
+    gap: 44px;
+    font-size: 29px;
+    padding-top: 82px;
+}
+.contact {
+    padding-left: 110px;
+    font-size: 14px;
+}
+.address {
+    padding-right: 20px;
+    font-size: 14px;
+}
+.numb {
+    padding-top: 20px;
+}
+.link {
+    padding-top: 20px;
+}
+.link h2 {
+    font-family: serif;
+    color: #423E40;
+}
+.ads {
+    padding-top: 20px;
+}
+.ads h2 {
+    font-family: serif;
+    color: #423E40;
+}
+@media (max-width: 600px) {
+    .menu ul {
+        display: none;
+    }
+    .logo h1 a {
+        right: 10px;
+    }
+    .store-texts h1 {
+        font-size: 25px;        
+    }
+}
